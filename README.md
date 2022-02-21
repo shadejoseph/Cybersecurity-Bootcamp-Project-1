@@ -102,7 +102,11 @@ This ELK server is configured to monitor the following machines:
 
 We have installed the following Beats on these machines:
 -FileBeat
+Login to Kibana > Logs : Add log data > System logs > DEB > Getting started
+Copy: curl -L -O https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-7.6.1-amd64.deb
 -Metric Beat
+Login to Kibana > Add Metric Data > Docker Metrics > DEB > Getting Started
+Copy: curl -L -O https://artifacts.elastic.co/downloads/beats/metricbeat/metricbeat-7.6.1-amd64.deb
 
 These Beats allow us to collect the following information from each machine:
 -Filebeat is a log data shipper for local files. Installed as an agent on your servers, Filebeat monitors the log directories or specific log files and forwards them either to Elasticsearch or Logstash for indexing. 
