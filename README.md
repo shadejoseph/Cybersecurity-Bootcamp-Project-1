@@ -32,6 +32,9 @@ Filbeats watch for log directories or specific log files.
 What does Metricbeat record?
 Metricbeat helps you monitor your servers by collecting metrics from the system and services running on the server.
 
+
+
+
 The configuration details of each machine may be found below.
 
 
