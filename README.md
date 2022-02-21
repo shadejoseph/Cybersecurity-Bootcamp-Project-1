@@ -76,12 +76,19 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 
 The playbook implements the following tasks:
 - Installing docker.io, pip3, and the docker module -
- ![image](https://user-images.githubusercontent.com/95665069/154869831-f80ecfc4-adf9-4280-a215-1f2fbc401fa7.png)
+
+![image](https://user-images.githubusercontent.com/95665069/154869831-f80ecfc4-adf9-4280-a215-1f2fbc401fa7.png)
+
 - Increase the virtual Memory -
+
 ![image](https://user-images.githubusercontent.com/95665069/154869964-0f2c8c9f-971d-4ebc-9e02-7f8e4ebca978.png)
+
 - System control (sysctl) Module -
+
 ![image](https://user-images.githubusercontent.com/95665069/154870010-15115fa3-17e9-4cb1-aebd-06c055c1363a.png)
+
 - downloads and launches the docker container for elk server -
+
 ![image](https://user-images.githubusercontent.com/95665069/154870092-fde7e899-dfd3-4635-8ab0-e463e8b3e910.png)
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
