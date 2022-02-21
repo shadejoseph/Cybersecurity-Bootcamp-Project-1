@@ -109,7 +109,9 @@ Login to Kibana > Add Metric Data > Docker Metrics > DEB > Getting Started
 Copy: curl -L -O https://artifacts.elastic.co/downloads/beats/metricbeat/metricbeat-7.6.1-amd64.deb
 
 These Beats allow us to collect the following information from each machine:
--Filebeat is a log data shipper for local files. Installed as an agent on your servers, Filebeat monitors the log directories or specific log files and forwards them either to Elasticsearch or Logstash for indexing. 
+
+-Filebeat is a log data shipper for local files. Installed as an agent on the servers, Filebeat monitors the log directories or specific log files and forwards them either to Elasticsearch or Logstash for indexing. 
+
 -Metricbeat collects metrics and statistics on the system. An example is a cpu usage, which can be used to monitor the system health.
 
 ### Using the Playbook
@@ -120,13 +122,21 @@ SSH into the control node and follow the steps below:
 - Update the /etc/ansible/hosts file to include the IP address of the Elk Server VM and webservers.
 - Run the playbook, and navigate to http://[Elk_VM_Public_IP]:5601/app/kiban to check that the installation worked as expected.
 
-Answer the following questions to fill in the blanks:_
+Answer the following questions to fill in the blanks:
+
 - Which file is the playbook?
 The Filebeat-configuration
+
 - Where do you copy it?
 /etc/ansible/files/filebeat-config.yml to /etc/filebeat/filebeat.yml
+
 - Which file do you update to make Ansible run the playbook on a specific machine?
-- filebeat-config.yml
-- How do I specify which machine to install the ELK server on versus which to install Filebeat on? You specify which machine to install by updating the host files with IP addresses of web and elk servers and from there you select which group to run on in ansible 
+ filebeat-config.yml
+
+- How do I specify which machine to install the ELK server on versus which to install Filebeat on? 
+You specify which machine to install by updating the host files with IP addresses of web and elk servers and from there you select which group to run on in ansible 
+
 - Which URL do you navigate to in order to check that the ELK server is running?
 http://[your.ELK-VM.External.IP]:5601/app/kibana 
+
+
