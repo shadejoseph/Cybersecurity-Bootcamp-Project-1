@@ -8,7 +8,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
 - Elk Stack - https://github.com/shadejoseph/Cybersecurity-Bootcamp-Project-1/blob/main/Ansible/Elk%20Stack
 - Filebeat - https://github.com/shadejoseph/Cybersecurity-Bootcamp-Project-1/blob/main/Ansible/Filebeat-playbook.yml
-- Metricbeat -
+- Metricbeat - https://github.com/shadejoseph/Cybersecurity-Bootcamp-Project-1/blob/main/Ansible/Metricbeat-playbook.yml
 
 This document contains the following details:
 - Description of the Topologu
